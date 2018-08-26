@@ -2,9 +2,112 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Educación CV FJSC</title>
+    <meta name="viewport" content="width=device-width user-scalable=no">
+    <title>Educaci&oacute;n CV FJSC</title>
   </head>
   <body>
+  <header>
+     <svg   width="220px" heigth ="120px" viewbox="0 0 220 120">
+       <image xlink:href="images\logo.svg" width="200px" heigth ="100px" x="10px" y="10px">  </image>
+     </svg>
+     <h1 id="inicio">Curriculum Vitae                   </h1>
+        <h2>Datos Personales                            </h2>
+          <h3>Nombre:  Saavedra, Francisco              </h3>
+          <h3>Fecha Nacimiento: 03/05/1974              </h3>
+          <h3>Lugar de Nacimiento: Managua, Nicaragua   </h3>
+  </header>
+  <nav>
+     <a href="index.html">Inicio</a> |
+     <a href="educacion.html" target="_blank">Educaci&oacute;n</a> |
+     <a href="experiencia.html" target="_blank">Experiencia</a>
+  </nav>
+<section>
+  <h2>Educaci&oacute;n</h2>
+  <article>
+   <table border="1" cellpadding="10" cellspacing="0">
+     <thead>
+        <tr>
+          <th>A&ntilde;o</th>
+          <th>Instituci&oacute;n</th>
+          <th>Lugar</th>
+          <th>¿Culmin&oacute;?</th>
+       </tr>
+     </thead>
+     <tbody>
+        <tr>
+          <td>1987</td>
+          <td>Educaci&oacute;n Primaria-Escuela Reynaldo Escobar Tapia</td>
+          <td>Managua</td>
+          <td>S&iacute;</td>
+        </tr>
+        <tr>
+          <td>1992</td>
+          <td>Educaci&oacute;n Secundaria-Instituto Gaspar Garcia Laviana</td>
+          <td>Managua</td>
+          <td>S&iacute;</td>
+        </tr>
+        <tr>
+          <td>1997</td>
+          <td>Ingenier&iacute;a en Computaci&oacute;n-Universidad Nacional de Ingrenier&iacute;a</td>
+          <td>Managua</td>
+          <td>S&iacute;</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Desarrollador Web- Next U</td>
+          <td>Managua</td>
+          <td>No</td>
+        </tr>
 
+     </tbody>
+   </table>
+
+    <h2> Agregar Estudios </h2>
+    <form name ="frmestudio" autocomplete="on" >
+     <fieldset>
+      <p>
+        <label for = "year"> A&ntilde;o: </label>
+        <select name="year">
+          <option value="1">2018 </option>
+          <option value="1">2017 </option>
+          <option value="1">2016 </option>
+          <option value="1">2015 </option>
+          <option value="1">2014 </option>
+          <option value="1">2013 </option>
+          <option value="1">2012 </option>
+          <option value="1">2011 </option>
+          <option value="1">2010 </option>
+          <option value="1">2009 </option>
+        </select>
+      </p>
+      <p>
+        <label for = "institucion"> Instituci&oacute;n: </label>
+        <input type ="text"  id ="institucion" name ="institucion" required>
+      </p>
+      </p>
+        <label for = "lugar"> Lugar: </label> </br>
+        <textarea  name ="lugar" row ="50" cols="50" required> </textarea>
+      </p>
+      <p>
+        <label for = "culmino"> Culmin&oacute; ?: </label> </br>
+        <input type ="radio"   name ="culmino"  required> SI </br>
+        <input type ="radio"   name ="culmino"  required> NO </br>
+     </p>
+
+      <input type="submit" value="Enviar" >
+     </fieldset>
+
+   </form>
+  </article>
+ </section>
+  <a href="#inicio">Volver hacia arriba</a>
+
+<footer>
+  <p>
+    <strong> Email: </strong> fcosaavedra@hotmail.com       <br>
+    <strong> M&oacute;vil: </strong> (505)8408-8195         <br>
+    <strong> Direcci&oacute;n:</strong> Managua, Nicaragua
+  </p>
+</footer>
   </body>
 </html>
